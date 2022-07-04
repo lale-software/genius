@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'The Matrix' target in the 'The Matrix' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "Utils.h"
+	#import "CBProgressView.h"
+#endif
+
+#define is_iPhone5() ([UIScreen mainScreen].bounds.size.height == 568)
